@@ -1,7 +1,7 @@
 # MySQL
 <a href="https://github.com/lyhisphper/Blog/issues/1">MySql常用语句</a>
 
-<a href="https://github.com/lyhisphper/Blog/issues/6">mysql8 权限管理</a>
+<a href="https://github.com/lyhisphper/Blog/issues/6">MySql8 权限管理</a>
 # PHP
 
 <a href="https://github.com/lyhisphper/Blog/issues/5">Carbon 示例</a>
