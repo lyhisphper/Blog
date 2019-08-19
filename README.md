@@ -1,5 +1,7 @@
 # MySQL
-<a href="https://github.com/lyhisphper/Blog/issues/1">MySql常用语句</a>
+<a href="https://github.com/lyhisphper/Blog/issues/1">MySql 常用语句</a>
+
+<a href="https://github.com/lyhisphper/Blog/issues/11">MySql 高级操作</a>
 
 <a href="https://github.com/lyhisphper/Blog/issues/6">MySql8 权限管理</a>
 # PHP
