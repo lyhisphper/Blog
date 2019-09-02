@@ -24,6 +24,8 @@
 # Linux
 <a href="https://github.com/lyhisphper/Blog/issues/7">Centos 源码安装nginx，添加nginx环境变量</a>
 
+<a href="https://github.com/lyhisphper/Blog/issues/14">Linux 常用命令</a>
+
 # Docker
 <a href="https://github.com/lyhisphper/Blog/issues/10">Docker 常用命令</a>
 
