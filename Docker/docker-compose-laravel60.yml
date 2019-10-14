@@ -1,0 +1,27 @@
+version: '3.5'
+services:
+  nginx:
+    image: nginx
+    container_name: nginx-dev
+    environment:
+      - APP_ENV=dev
+      - TIMEZONE=Asia/Shanghai
+    restart: always
+    depends_on:
+      - php-fpm
+    ports:
+      - "50080:80"
+      - "50443:443"
+    volumes:
+      - ./:/usr/share/nginx/html/laravel60
+      - ./nginx/conf.d:/etc/nginx/conf.d
+    command: [nginx-debug, '-g', 'daemon off;']
+  php-fpm:
+    image: php:7.2-fpm
+    container_name: php-fpm-dev
+    # environment:
+    restart: always
+    volumes:
+      - "./:/var/www/html/laravel60"
+    # ports:
+
