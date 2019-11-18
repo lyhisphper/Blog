@@ -1,3 +1,4 @@
+--------------------------------------swoft---------------------------------
 version: '3.4'
 services:
   swoft:
@@ -38,3 +39,51 @@ services:
 #    sysctls:
 #      net.core.somaxconn: 65535
 #    restart: always
+
+--------------------------------------laravel5.8---------------------------------
+version: '3.5'
+services:
+  nginx:
+    image: nginx
+    container_name: nginx-lyh
+    environment:
+      - APP_ENV=dev
+      - TIMEZONE=Asia/Shanghai
+    restart: always
+    depends_on:
+      - php-fpm
+    ports:
+      - "50080:80"
+      - "50443:443"
+    volumes:
+      - ./:/usr/share/nginx/html/navi2019
+      - ./nginx/:/etc/nginx/conf.d
+    command: [nginx-debug, '-g', 'daemon off;']
+  php-fpm:
+    image: bitnami/php-fpm:latest
+    container_name: php-fpm-lyh
+    # entrypoint: php index.php
+    restart: always
+    volumes:
+      - ./:/app
+    # ports:
+  mysql:
+    image: mysql:8.0
+    container_name: mysql-lyh
+    command: --default-authentication-plugin=mysql_native_password
+    environment:
+      - MYSQL_ROOT_PASSWORD=123456
+    ports:
+      - "53306:3306"
+      #volumes:
+      # - ./runtime/data/mysql:/var/lib/mysql
+    restart: always
+  redis:
+    container_name: redis-lyh
+    image: redis:4-alpine
+    ports:
+      - "56379:6379"
+    sysctls:
+      net.core.somaxconn: 65535
+    restart: always
+
