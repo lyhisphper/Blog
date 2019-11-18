@@ -17,6 +17,7 @@
 
 ## Swoft
 ## Laravel
+
 # JAVA
 <a href="https://github.com/lyhisphper/Blog/issues/20">Spring Boot 笔记</a>
 ## Eclipse
@@ -40,6 +41,8 @@
 <a href="https://github.com/lyhisphper/Blog/blob/master/Docker/Dockerfile-Swoft">Dockerfile-swoft</a>
 
 <a href="https://github.com/lyhisphper/Blog/blob/master/Docker/docker-compose.yml">docker-compose.yml</a>
+
+<a href="https://github.com/lyhisphper/Blog/issues/23">docker-composer.yml nginx config </a>
 
 <a href="https://github.com/lyhisphper/Blog/issues/19">安装Docker环境</a>
 
