@@ -13,6 +13,9 @@
 ## C++
 <a href="https://github.com/lyhisphper/Blog/issues/16">概述</a>
 
+# Python
+<a href="https://github.com/lyhisphper/Blog/issues/27">Python 常用命令</a>
+
 ## C#
 
 ## Swoft
