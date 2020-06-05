@@ -6,6 +6,7 @@
 <a href="https://github.com/lyhisphper/Blog/issues/6">MySql8 权限管理</a>
 # PHP
 
+<a href="https://github.com/lyhisphper/Blog/issues/29">PHP 常用函数</a>
 <a href="https://github.com/lyhisphper/Blog/issues/5">Carbon 示例</a>
 
 <a href="https://github.com/lyhisphper/Blog/tree/master/PHP/Ip%E8%BD%AC%E5%9C%B0%E5%9D%80">使用 qqwry.dat 将IP转换为地址</a>
