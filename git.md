@@ -64,5 +64,14 @@ git branch -r -d origin/branch1
 git branch --set-upstream-to origin/dev0628
 
 查看本地分支与远程分支关联关系
-git branch -vv
+
+```
+
+## 版本操作
+```
+git log --oneline
+git tag -a v1.2.21 -m "显示团队" 26e71b2 && git push origin --tags
+
+拉取代码
+git pull && git checkout v1.1.0
 ```
